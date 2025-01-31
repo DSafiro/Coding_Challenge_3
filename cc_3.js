@@ -10,3 +10,14 @@ orders[2] = orders[2] + 5 // Increases the third order quantity by 5
 let totalOrderCount = orders.reduce((acc, order) => acc + order) // Sums up order quanitites together
 console.log("Updated Orders:", orders) // Outputs updates order array
 console.log("Total Order Count:", totalOrderCount) // Outputs total order count
+
+// Task 3: Employee Performance Tracking
+let employee = {
+    name: "Peter Parker",
+    role: "Photographer",
+    perfomanceScore: 75,
+    isActive: true
+} // Initial employee object
+employee.perfomanceScore = 84 // Updates employee performance score
+employee.promotionEligible = true // Adds new property of propmotionEligible to employee object
+console.log("Employee:", employee) // Outputs employee information
