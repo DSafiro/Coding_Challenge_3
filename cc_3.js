@@ -29,4 +29,16 @@ let feedback = [
     {customerName: "Barry Allen", feedbackText: "Nice work!", rating: 5}
 ] // Initial array of customer feedback
 feedback.push({customerName: "Diana Prince", feedbackText: "Excellent work!", rating: 4.5}) // Adds new feedback object to array
-console.log("Customer Feedback", feedback) // Outputs updated customer feedback
+console.log("Customer Feedback:", feedback) // Outputs updated customer feedback
+
+// Task 5: Inventory Management System
+let inventory = {
+    itemName: "Mjolnir",
+    stockCount: 15,
+    price: 399.99,
+} // Initial inventory object
+function calculateTotalValue(){
+    return inventory.stockCount * inventory.price
+} // Returns total value by multiplying stock count by price
+console.log("Inventory Details:", inventory) // Outputs inventory details 
+console.log("Total Value:", calculateTotalValue()) // Outputs total value
